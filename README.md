@@ -1,6 +1,6 @@
 # MERN Product Store
 
-MERN Product Store is a full-stack web application for managing a product store. Users can add, update, delete, and display products, including their price and image.
+MERN Product Store is a responsive full-stack web application for managing a product store. Users can add, update, delete, and display products, including their price and image.
 
 ## Live Demo
 Check out the live version of the application [here](https://mern-product-store-u93h.onrender.com).
