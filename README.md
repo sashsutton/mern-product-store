@@ -111,23 +111,6 @@ The following environment variables need to be set in a `.env` file:
 - `PORT` - Port for the server
 - `MONGO_URI` - MongoDB connection string
 
-## Deployment
-To deploy the application:
-1. Ensure the backend is configured to serve the frontend in production mode:
-   ```javascript
-   if (process.env.NODE_ENV === 'production') {
-       app.use(express.static(path.join(__dirname, 'frontend/dist')));
-       app.get('*', (req, res) => {
-           res.sendFile(path.resolve(__dirname, 'frontend/dist/index.html'));
-       });
-   }
-   ```
-2. Use services like Heroku, AWS, or Vercel to deploy the application.
-
 ## License
 This project is licensed under the MIT License.
-
----
-
-Feel free to contribute to the project by submitting issues or pull requests!
 
